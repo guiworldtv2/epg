@@ -1,5 +1,7 @@
 # This is a basic workflow to help you get started with Actions
 
+# This is a basic workflow to help you get started with Actions
+
 name: M3U generator
 
 # Controls when the action will run. 
@@ -39,21 +41,17 @@ jobs:
       
     
         
-    - name: config
-      run: |
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
-    - name: Baixando EPGS
-      run: |         
-       wget -r https://iptv-org.github.io/epg/guides/cl/mi.tv.epg.xml
-       wget -r https://iptv-org.github.io/epg/guides/cl/gatotv.com.epg.xml
+      - name: Main
+        run: |         
+          wget -r https://iptv-org.github.io/epg/guides/cl/mi.tv.epg.xml
+          wget -r https://iptv-org.github.io/epg/guides/cl/gatotv.com.epg.xml
     
               
-    - name: git add
-      run: |
-        git add -A
-        ls -la
-    - name: commit & push
-      run: |
-        git commit -m "links are updated"
-        git push       
+      - name: git add
+        run: |
+          git add -A
+          ls -la
+      - name: commit & push
+        run: |
+          git commit -m "links are updated"
+          git push       
