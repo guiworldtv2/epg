@@ -30,6 +30,12 @@ jobs:
        wget -r https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/vivo.com.br.channels.xml -o EPG9.xml
        wget -r https://github.com/guiworldtv/M3UPT/raw/main/epg/epg-vodafone.xml.gz -o EPG10.xml.gz
        wget -r https://iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml.gz -o EPG11.xml.gz
+       wget -r https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml -o EPG12.xml
+       wget -r https://raw.githubusercontent.com/mudstein/XML/main/TIZENsiptv.xml -o EPG13.xml
+       wget -r https://raw.githubusercontent.com/K-vanc/Tempest-EPG-Generator/main/Siteconfigs/Argentina/%5BENC%5D%5BEX%5Delcuatro.com_0.channel.xml -o EPG14.xml
+       wget -r https://raw.githubusercontent.com/Nicolas0919/Guia-EPG/master/GuiaEPG.xml -o EPG15.xml
+       wget -r https://iptv-org.github.io/epg/guides/ar/directv.com.ar.epg.xml.gz -o EPG16.xml.gz
+       wget -r https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml.gz -o EPG17.xml.gz
        
     - name: git add
       run: |
