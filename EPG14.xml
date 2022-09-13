@@ -1,0 +1,14 @@
+--2022-09-13 19:15:24--  https://raw.githubusercontent.com/K-vanc/Tempest-EPG-Generator/main/Siteconfigs/Argentina/%5BENC%5D%5BEX%5Delcuatro.com_0.channel.xml
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.110.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10582 (10K) [text/plain]
+Saving to: ‘raw.githubusercontent.com/K-vanc/Tempest-EPG-Generator/main/Siteconfigs/Argentina/[ENC][EX]elcuatro.com_0.channel.xml’
+
+     0K ..........                                            100% 75.5M=0s
+
+2022-09-13 19:15:24 (75.5 MB/s) - ‘raw.githubusercontent.com/K-vanc/Tempest-EPG-Generator/main/Siteconfigs/Argentina/[ENC][EX]elcuatro.com_0.channel.xml’ saved [10582/10582]
+
+FINISHED --2022-09-13 19:15:24--
+Total wall clock time: 0.2s
+Downloaded: 1 files, 10K in 0s (75.5 MB/s)

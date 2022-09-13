@@ -1,0 +1,19 @@
+--2022-09-13 19:15:24--  https://github.com/Nicolas0919/Guia-EPG/raw/master/GuiaEPG.xml.gz
+Resolving github.com (github.com)... 192.30.255.112
+Connecting to github.com (github.com)|192.30.255.112|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/Nicolas0919/Guia-EPG/master/GuiaEPG.xml.gz [following]
+--2022-09-13 19:15:25--  https://raw.githubusercontent.com/Nicolas0919/Guia-EPG/master/GuiaEPG.xml.gz
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.110.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 111 [application/octet-stream]
+Saving to: ‘github.com/Nicolas0919/Guia-EPG/raw/master/GuiaEPG.xml.gz’
+
+     0K                                                       100% 3.47M=0s
+
+2022-09-13 19:15:25 (3.47 MB/s) - ‘github.com/Nicolas0919/Guia-EPG/raw/master/GuiaEPG.xml.gz’ saved [111/111]
+
+FINISHED --2022-09-13 19:15:25--
+Total wall clock time: 1.2s
+Downloaded: 1 files, 111 in 0s (3.47 MB/s)
