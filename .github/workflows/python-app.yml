@@ -19,52 +19,8 @@ jobs:
         git config --global user.name "GitHub Action"
     - name: Baixando EPGS
       run: |         
-       wget -r http://www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/clarotv.com.br.channels.xml -O EPG1.xml
-    - name: Baixando EPGS
-      run: |         
-       wget -r http://www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/vivo.com.br.channels.xml -O EPG2.xml
-    - name: Baixando EPGS
-      run: |
-       wget -r http://webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/hagah.com.br.channels.xml -O EPG3.xml
-    - name: Baixando EPGS
-      run: |       
-       wget -r http://m3u4u.com/epg/jq2zy9pzprh3jkjnxr58 -O EPG4.xml.gz
-    - name: Baixando EPGS      
-      run: |              
-       wget -r http://epg.liveiptv.net/epg.xml -O EPG5.xml
-    - name: Baixando EPGS
-      run: |              
-       wget -r https://raw.githubusercontent.com/mudstein/XML/main/TIZENiptvchile.xml -O EPG6.xml
-    - name: Baixando EPGS      
-      run: |              
-       wget -r https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/clarotv.com.br.channels.xml -O EPG7.xml
-    - name: Baixando EPGS
-      run: |              
-       wget -r https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/redeglobo.globo.com.channels.xml -O EPG8.xml
-    - name: Baixando EPGS
-      run: |              
-       wget -r https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/vivo.com.br.channels.xml -O EPG9.xml
-    - name: Baixando EPGS
-      run: |              
-       wget -r https://github.com/guiworldtv/M3UPT/raw/main/epg/epg-vodafone.xml.gz -O EPG10.xml.gz
-    - name: Baixando EPGS
-      run: |              
-       wget -r https://iptv-Org.github.io/epg/guides/pt/meo.pt.epg.xml.gz -O EPG11.xml.gz
-    - name: Baixando EPGS
-      run: |       
-       wget -r https://iptv-Org.github.io/epg/guides/ar/mi.tv.epg.xml.gz -O EPG12.xml.gz
-    - name: Baixando EPGS
-      run: |                     
-       wget -r https://raw.githubusercontent.com/mudstein/XML/main/TIZENsiptv.xml -O EPG13.xml
-    - name: Baixando EPGS
-      run: |       
-       wget -r https://raw.githubusercontent.com/K-vanc/Tempest-EPG-Generator/main/Siteconfigs/Argentina/%5BENC%5D%5BEX%5Delcuatro.com_0.channel.xml -O EPG14.xml
-    - name: Baixando EPGS
-      run: |       
-       wget -r https://github.com/Nicolas0919/Guia-EPG/raw/master/GuiaEPG.xml.gz -O EPG15.xml.gz
-    - name: Baixando EPGS
-      run: |       
-       wget -r https://iptv-Org.github.io/epg/guides/ar/directv.com.ar.epg.xml.gz -O EPG16.xml.gz
+       wget -r https://iptv-org.github.io/epg/guides/cl/mi.tv.epg.xml
+       wget -r https://iptv-org.github.io/epg/guides/cl/gatotv.com.epg.xml
     
               
     - name: git add
