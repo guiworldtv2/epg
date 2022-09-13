@@ -1,14 +1,14 @@
---2022-09-13 18:50:47--  http://www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/clarotv.com.br.channels.xml
+--2022-09-13 18:53:36--  http://www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/clarotv.com.br.channels.xml
 Resolving www.webgrabplus.com (www.webgrabplus.com)... 213.126.50.203
 Connecting to www.webgrabplus.com (www.webgrabplus.com)|213.126.50.203|:80... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 34724 (34K) [text/xml]
 Saving to: ‘www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/clarotv.com.br.channels.xml’
 
-     0K .......... .......... .......... ...                  100%  118K=0.3s
+     0K .......... .......... .......... ...                  100% 90.5K=0.4s
 
-2022-09-13 18:50:48 (118 KB/s) - ‘www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/clarotv.com.br.channels.xml’ saved [34724/34724]
+2022-09-13 18:53:37 (90.5 KB/s) - ‘www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/clarotv.com.br.channels.xml’ saved [34724/34724]
 
-FINISHED --2022-09-13 18:50:48--
-Total wall clock time: 0.8s
-Downloaded: 1 files, 34K in 0.3s (118 KB/s)
+FINISHED --2022-09-13 18:53:37--
+Total wall clock time: 0.9s
+Downloaded: 1 files, 34K in 0.4s (90.5 KB/s)

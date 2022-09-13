@@ -1,14 +1,14 @@
---2022-09-13 18:51:04--  https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/clarotv.com.br.channels.xml
-Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.109.133, 185.199.108.133, ...
-Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+--2022-09-13 18:53:50--  https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/clarotv.com.br.channels.xml
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.108.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 34724 (34K) [text/plain]
 Saving to: ‘raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/clarotv.com.br.channels.xml’
 
-     0K .......... .......... .......... ...                  100% 23.5M=0.001s
+     0K .......... .......... .......... ...                  100% 8.05M=0.004s
 
-2022-09-13 18:51:04 (23.5 MB/s) - ‘raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/clarotv.com.br.channels.xml’ saved [34724/34724]
+2022-09-13 18:53:50 (8.05 MB/s) - ‘raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/clarotv.com.br.channels.xml’ saved [34724/34724]
 
-FINISHED --2022-09-13 18:51:04--
-Total wall clock time: 0.03s
-Downloaded: 1 files, 34K in 0.001s (23.5 MB/s)
+FINISHED --2022-09-13 18:53:50--
+Total wall clock time: 0.1s
+Downloaded: 1 files, 34K in 0.004s (8.05 MB/s)

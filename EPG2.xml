@@ -1,14 +1,14 @@
---2022-09-13 18:50:48--  http://www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/vivo.com.br.channels.xml
+--2022-09-13 18:53:37--  http://www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/vivo.com.br.channels.xml
 Resolving www.webgrabplus.com (www.webgrabplus.com)... 213.126.50.203
 Connecting to www.webgrabplus.com (www.webgrabplus.com)|213.126.50.203|:80... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 30473 (30K) [text/xml]
 Saving to: ‘www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/vivo.com.br.channels.xml’
 
-     0K .......... .......... .........                       100%  104K=0.3s
+     0K .......... .......... .........                       100% 80.0K=0.4s
 
-2022-09-13 18:50:48 (104 KB/s) - ‘www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/vivo.com.br.channels.xml’ saved [30473/30473]
+2022-09-13 18:53:38 (80.0 KB/s) - ‘www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/vivo.com.br.channels.xml’ saved [30473/30473]
 
-FINISHED --2022-09-13 18:50:48--
-Total wall clock time: 0.8s
-Downloaded: 1 files, 30K in 0.3s (104 KB/s)
+FINISHED --2022-09-13 18:53:38--
+Total wall clock time: 0.9s
+Downloaded: 1 files, 30K in 0.4s (80.0 KB/s)

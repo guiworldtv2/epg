@@ -1,4 +1,4 @@
---2022-09-13 18:51:04--  http://epg.liveiptv.net/epg.xml
+--2022-09-13 18:53:49--  http://epg.liveiptv.net/epg.xml
 Resolving epg.liveiptv.net (epg.liveiptv.net)... 172.67.186.125, 104.21.19.144, 2606:4700:3035::ac43:ba7d, ...
 Connecting to epg.liveiptv.net (epg.liveiptv.net)|172.67.186.125|:80... connected.
 HTTP request sent, awaiting response... 200 OK
@@ -7,5 +7,5 @@ Saving to: ‘epg.liveiptv.net/epg.xml’
 
      0K                                                        0.00 =0s
 
-2022-09-13 18:51:04 (0.00 B/s) - ‘epg.liveiptv.net/epg.xml’ saved [0/0]
+2022-09-13 18:53:50 (0.00 B/s) - ‘epg.liveiptv.net/epg.xml’ saved [0/0]
 

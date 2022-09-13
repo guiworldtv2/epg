@@ -1,14 +1,14 @@
---2022-09-13 18:51:04--  https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/vivo.com.br.channels.xml
-Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.109.133, 185.199.108.133, ...
-Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+--2022-09-13 18:53:50--  https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/vivo.com.br.channels.xml
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.108.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 36561 (36K) [text/plain]
 Saving to: ‘raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/vivo.com.br.channels.xml’
 
-     0K .......... .......... .......... .....                100% 18.7M=0.002s
+     0K .......... .......... .......... .....                100% 9.00M=0.004s
 
-2022-09-13 18:51:04 (18.7 MB/s) - ‘raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/vivo.com.br.channels.xml’ saved [36561/36561]
+2022-09-13 18:53:50 (9.00 MB/s) - ‘raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/vivo.com.br.channels.xml’ saved [36561/36561]
 
-FINISHED --2022-09-13 18:51:04--
-Total wall clock time: 0.03s
-Downloaded: 1 files, 36K in 0.002s (18.7 MB/s)
+FINISHED --2022-09-13 18:53:50--
+Total wall clock time: 0.2s
+Downloaded: 1 files, 36K in 0.004s (9.00 MB/s)

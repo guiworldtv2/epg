@@ -1,16 +1,16 @@
---2022-09-13 18:51:04--  https://iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml.gz
-Resolving iptv-org.github.io (iptv-org.github.io)... 185.199.108.153, 185.199.110.153, 185.199.109.153, ...
+--2022-09-13 18:53:51--  https://iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml.gz
+Resolving iptv-org.github.io (iptv-org.github.io)... 185.199.108.153, 185.199.109.153, 185.199.110.153, ...
 Connecting to iptv-org.github.io (iptv-org.github.io)|185.199.108.153|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 147730 (144K) [application/gzip]
 Saving to: ‘iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml.gz’
 
-     0K .......... .......... .......... .......... .......... 34% 8.09M 0s
-    50K .......... .......... .......... .......... .......... 69% 9.23M 0s
-   100K .......... .......... .......... .......... ....      100%  133M=0.01s
+     0K .......... .......... .......... .......... .......... 34% 3.44M 0s
+    50K .......... .......... .......... .......... .......... 69% 4.28M 0s
+   100K .......... .......... .......... .......... ....      100% 28.5M=0.03s
 
-2022-09-13 18:51:05 (12.1 MB/s) - ‘iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml.gz’ saved [147730/147730]
+2022-09-13 18:53:51 (5.20 MB/s) - ‘iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml.gz’ saved [147730/147730]
 
-FINISHED --2022-09-13 18:51:05--
-Total wall clock time: 0.06s
-Downloaded: 1 files, 144K in 0.01s (12.1 MB/s)
+FINISHED --2022-09-13 18:53:51--
+Total wall clock time: 0.2s
+Downloaded: 1 files, 144K in 0.03s (5.20 MB/s)
