@@ -19,7 +19,7 @@ jobs:
         git config --global user.name "GitHub Action"
     - name: Baixando EPGS
       run: |         
-       wget -r playplus.com
+       wget -r http://www.playplus.com
        wget -r http://www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/clarotv.com.br.channels.xml
        wget -r http://www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/vivo.com.br.channels.xml
        wget -r http://webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/hagah.com.br.channels.xml
