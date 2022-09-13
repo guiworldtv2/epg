@@ -52,7 +52,7 @@ jobs:
        wget -r https://iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml.gz -o EPG11.xml.gz
     - name: Baixando EPGS
       run: |       
-       wget -r https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml -o EPG12.xml
+       wget -r https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml.gz -o EPG12.xml.gz
     - name: Baixando EPGS
       run: |                     
        wget -r https://raw.githubusercontent.com/mudstein/XML/main/TIZENsiptv.xml -o EPG13.xml
