@@ -30,13 +30,13 @@ jobs:
       run: |       
        wget -r http://m3u4u.com/epg/jq2zy9pzprh3jkjnxr58 -o EPG4.xml.gz
     - name: Baixando EPGS      
-    run: |              
+      run: |              
        wget -r http://epg.liveiptv.net/epg.xml -o EPG5.xml
-    - name: Baixando EPGS      
-    run: |              
+    - name: Baixando EPGS
+      run: |              
        wget -r https://raw.githubusercontent.com/mudstein/XML/main/TIZENiptvchile.xml -o EPG6.xml
     - name: Baixando EPGS      
-    run: |              
+      run: |              
        wget -r https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/clarotv.com.br.channels.xml -o EPG7.xml
     - name: Baixando EPGS
       run: |              
