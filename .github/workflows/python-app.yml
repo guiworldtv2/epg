@@ -1,39 +1,40 @@
-# This workflow will install Python dependencies, run tests and lint with a single version of Python
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
-
-name: Python application
-
+name: Baixando EPGS
 on:
-  push:
-    branches: [ "main" ]
+  schedule:
+    - cron: '9 * * * *'
   pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
 
-permissions:
-  contents: read
+  workflow_dispatch:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v3
-      with:
-        python-version: "3.10"
-    - name: Install dependencies
+    - uses: actions/checkout@v2
+    - name: config
       run: |
-        python -m pip install --upgrade pip
-        pip install flake8 pytest
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Lint with flake8
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+    - name: Baixando EPGS
+      run: |         
+       wget -r https://canaisglobo.globo.com/programacao/gz
+       wget -r http://www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/clarotv.com.br.channels.xml
+       wget -r http://www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/vivo.com.br.channels.xml
+       wget -r http://webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/hagah.com.br.channels.xml
+       wget -r http://m3u4u.com/epg/jq2zy9pzprh3jkjnxr58
+       wget -r http://epg.liveiptv.net/epg.xml
+       wget -r https://raw.githubusercontent.com/mudstein/XML/main/TIZENiptvchile.xml
+       wget -r https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/clarotv.com.br.channels.xml
+       wget -r https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/redeglobo.globo.com.channels.xml
+       wget -r https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/vivo.com.br.channels.xml
+       
+    - name: git add
       run: |
-        # stop the build if there are Python syntax errors or undefined names
-        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
-        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
-        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-    - name: Test with pytest
+        git add -A
+        ls -la
+    - name: commit & push
       run: |
-        pytest
+        git commit -m "links are updated"
+        git push       
