@@ -43,7 +43,7 @@ jobs:
         
       - name: Main
         run: |         
-          wget -r https://iptv-org.github.io/epg/guides/cl/mi.tv.epg.xml.gz
+          wget -r https://iptvx.one/epg/epg.xml.gz
           wget -r https://iptv-org.github.io/epg/guides/cl/gatotv.com.epg.xml.gz
     
               
