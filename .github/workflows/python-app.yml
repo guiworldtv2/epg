@@ -65,9 +65,6 @@ jobs:
     - name: Baixando EPGS
       run: |       
        wget -r https://iptv-org.github.io/epg/guides/ar/directv.com.ar.epg.xml.gz -o EPG16.xml.gz
-    - name: Baixando EPGS
-      run: |       
-       wget -r https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml.gz -o EPG17.xml.gz
     
               
     - name: git add
