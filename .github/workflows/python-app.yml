@@ -22,7 +22,7 @@ jobs:
        wget -r http://www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/clarotv.com.br.channels.xml -O EPG1.xml
        wget -r http://www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/vivo.com.br.channels.xml -O EPG2.xml
        wget -r http://webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/hagah.com.br.channels.xml -O EPG3.xml
-       wget -r http://m3u4u.com/epg/jq2zy9pzprh3jkjnxr58 -O EPG4.gz
+       wget -r http://m3u4u.com/epg/jq2zy9pzprh3jkjnxr58 -O EPG4.xml.gz
        wget -r http://epg.liveiptv.net/epg.xml -O EPG5.xml
        wget -r https://raw.githubusercontent.com/mudstein/XML/main/TIZENiptvchile.xml -O EPG6.xml
        wget -r https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/clarotv.com.br.channels.xml -O EPG7.xml
