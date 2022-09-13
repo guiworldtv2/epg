@@ -1,4 +1,0 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow: /static/
-Sitemap: https://canaisglobo.globo.com/sitemap.xml
