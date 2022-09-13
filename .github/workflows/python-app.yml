@@ -19,17 +19,17 @@ jobs:
         git config --global user.name "GitHub Action"
     - name: Baixando EPGS
       run: |         
-       wget -r http://www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/clarotv.com.br.channels.xml -O EPG1.xml
-       wget -r http://www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/vivo.com.br.channels.xml -O EPG2.xml
-       wget -r http://webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/hagah.com.br.channels.xml -O EPG3.xml
-       wget -r http://m3u4u.com/epg/jq2zy9pzprh3jkjnxr58 -O EPG4.xml.gz
-       wget -r http://epg.liveiptv.net/epg.xml -O EPG5.xml
-       wget -r https://raw.githubusercontent.com/mudstein/XML/main/TIZENiptvchile.xml -O EPG6.xml
-       wget -r https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/clarotv.com.br.channels.xml -O EPG7.xml
-       wget -r https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/redeglobo.globo.com.channels.xml -O EPG8.xml
-       wget -r https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/vivo.com.br.channels.xml -O EPG9.xml
-       wget -r https://github.com/guiworldtv/M3UPT/raw/main/epg/epg-vodafone.xml.gz -O EPG10.xml.gz
-       wget -r https://iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml.gz -O EPG11.xml.gz
+       wget -r http://www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/clarotv.com.br.channels.xml -o EPG1.xml
+       wget -r http://www.webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/vivo.com.br.channels.xml -o EPG2.xml
+       wget -r http://webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/Brazil/hagah.com.br.channels.xml -o EPG3.xml
+       wget -r http://m3u4u.com/epg/jq2zy9pzprh3jkjnxr58 -o EPG4.xml.gz
+       wget -r http://epg.liveiptv.net/epg.xml -o EPG5.xml
+       wget -r https://raw.githubusercontent.com/mudstein/XML/main/TIZENiptvchile.xml -o EPG6.xml
+       wget -r https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/clarotv.com.br.channels.xml -o EPG7.xml
+       wget -r https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/redeglobo.globo.com.channels.xml -o EPG8.xml
+       wget -r https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/vivo.com.br.channels.xml -o EPG9.xml
+       wget -r https://github.com/guiworldtv/M3UPT/raw/main/epg/epg-vodafone.xml.gz -o EPG10.xml.gz
+       wget -r https://iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml.gz -o EPG11.xml.gz
        
     - name: git add
       run: |
